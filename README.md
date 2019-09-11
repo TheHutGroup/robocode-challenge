@@ -1,19 +1,19 @@
 Hut Group University Challenge
 ------------------------------
-#Intro
+# Intro
 Artificial intelligence is set to revolutionise the world around us. The scope for its application in business is huge, which is why The Hut Group needs to harness its full potential to stay ahead of the pack.
  
 Using AI, we’d like you to program a robot tank to battle others in real time. Develop your bot to learn from its mistakes and automate its own decisions on your journey to total domination.
  
 The Hut Group will provide the API to get you started and a training bot to test your skills. Live streams will be organised to showcase your performance against other applicants, as well as our very own house robots. For those who manage to annihilate the competition, there’s a £10k prize up for grabs.  
 
-#Format:
+# Format:
 Arena battle tournament. Optimize your bots for colosseum style battles. `Arena size 1000x1000` 
 
-##Knockout Round:
+## Knockout Round:
 Bots randomly grouped into brackets. Each bracket competes in a free-for-all. Winners from each bracket will compete in a final free-for-all battle.
 
-##Scoring:
+## Scoring:
 There will be 100 rounds. More emphasis will be given to later rounds, you should use the initial rounds to learn. (Weighting of the score of a round will increase linearly).
 The score for a round is based on:
  * Energy left
@@ -21,8 +21,8 @@ The score for a round is based on:
  * Gun damage
 (Note: accuracy is irrelevant) 
 
-#Setup:
-##Developing a `Bot`:  
+# Setup:
+## Developing a `Bot`:  
 `THIS REPO IS DESIGNED TO BE RUN IN INTELLIJ IDEA`   
 To develop your bot follow these steps:    
 *Clone this repo locally  
@@ -32,18 +32,18 @@ To develop your bot follow these steps:
 *From the robocode instance go to OPTIONS-> PREFERENCES ->DEVELOPMENT OPTIONS and add your intellij output folder to the list  
 *CONGRATULATIONS! You are now setup to develop bots.    
 
-##Setup Notes  
+## Setup Notes  
 *This is just a template bot which does nothing, it is up to you to architect it's behaviour.   
 *If you want to see more bots to challenge just go into development options again and add the {YOUR_ROBOCODE_INSTALL_PATH}/robots  
 
-#Submission:  
-##Packaging your bot:    
+# Submission:  
+## Packaging your bot:    
 *From your running instance of robocode: ROBOT -> PACKAGE ROBOT OR TEAM and follow the instructions  
 *During packaging check both boxes for data files and source files  
 *Names, Descriptions - Have fun ;)  
 
-##Making your submission:  
+## Making your submission:  
 *Get your robot jar and your source code and dump them into a public github repo. Submit your repo link through our official submission page (you should have entered that during registration, if you havent registered yet click [here](http://challenge.thehutgroup.com/technology/register)
 
-#Prizes:  
+# Prizes:  
 *£16,000 prize pool. 
